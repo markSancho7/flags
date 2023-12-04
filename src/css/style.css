@@ -1,27 +1,39 @@
 *,
 *::after,
 *::before {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 img {
-  max-width: 100%;
-  display: block;
+	max-width: 100%;
+	display: block;
 }
 
 ul {
-  list-style: none;
-  padding-left: 0;
-  margin-top: 0;
-  margin-bottom: 0;
+	list-style: none;
+	padding-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 a {
-  text-decoration: none;
-  color: inherit;
+	text-decoration: none;
+	color: inherit;
 }
 
 body {
-  margin: 0;
-  /* background-image: url(../assets/images/sleep-cat.jpeg); */
+	margin: 0;
+	background-color: blueviolet;
+	/* background-image: url(../assets/images/sleep-cat.jpeg); */
+}
+.containerFlags {
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+	gap: 5px;
+	margin: 10px;
+}
+.flag {
+	position: absolute;
+	left: 50px;
+	z-index: 10;
 }
